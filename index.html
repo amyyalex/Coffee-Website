@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coffee Shop Website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+	<!--Navbar-->
+	<div class="header">
+		<a href="#"><h3>Cafe</h3></a>
+		<nav class="navbar">
+	        <a href="#home">Home</a>
+	        <a href="#about">About</a>
+	        <a href="#menu">Menu</a>
+	        <a href="#review">Review</a>
+            <a href="#footer">Place Order</a>
+	    </nav>
+
+
+        <div class="fas fa-bars" id="menu-btn"></div>
+	</div>
+	<!--end of navbar section-->
+
+   <!--start of home section-->
+     <section class="home" id="home">
+    	 <div class="home-text" data-aos="fade-up" data-aos-duration="1000">
+    	 	<span>Welcome to Cafe</span>
+    	    <h1>Start your morning right with a cup of coffee!</span> </h1>
+            <a href="#" class="home-btn"> View Menu <i class="uil uil-coffee"></i> </a>
+        </div> 
+            
+    </section>
+    <!--end of home section-->
+
+    <!--start of about section-->
+    <section class="about" id="about">
+    	<div class="about-text" >
+    		<p>Who we are</p>
+    		<h1 data-aos="fade-up">About Us </h1>
+    	</div>
+    	 <div class="about-container">
+	    <div class="image" data-aos="fade-right" data-aos-offset="300">
+	    	<div class="image-box">
+	    		<img src="image/about1.jpg" alt="">
+	    	</div>
+	    </div>
+
+	    <div class="about-content" data-aos="fade-left" data-aos-offset="300">
+	        <h3>A cup of coffee makes the day better!</h3>
+	        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum sint, dolore perspiciatis iure consequuntur eligendi quaerat vitae shaikh anas.Ut posuere, enim vitae imperdiet eleifend, ante est ultrices quam, vitae blandit erat dolor a felis. Sed commodo, lectus nec posuere euismod, eros orci sagittis est, ut dignissim purus libero id urna. Ut posuere, enim vitae imperdiet eleifend, ante est ultrices quam, lectus nec posuere euismod, eros orci sagittis est, ut dignissim purus libero id urna.</p>
+	        <a href="#" class="about-btn">Read More</a>
+	    </div>
+
+    </div>
+    	
+    </section>
+
+    <!--end of about section-->
+
+    <!--start of menu section-->
+    <section class="menu-section" id="menu">
+    	<div class="menu-text">
+    		<p>What we serve</p>
+    		<h1 data-aos="fade-up">Our Menu</h1>
+    	</div>
+    	<div class="menu-container">
+    		<div class="row">
+    			<div class="menu-tabs" data-aos="fade-up">
+    				<button type="button" class="menu-item active" data-target="#coffee">Coffee</button>
+    				<button type="button" class="menu-item" data-target="#hot-drinks">Hot Drinks</button>
+    				<button type="button" class="menu-item" data-target="#desserts">Desserts</button>
+    			</div>
+    		</div>
+    		<div class="row menu-tab-content active" id="coffee">	
+    				<div class="menu-items" data-aos="fade-up-right">
+    					<div class="menu-item-title">
+    						<img src="image/coffee1.jpg">
+    						<h3>Cappuccino</h3>
+    					</div>
+    					<div class="menu-item-price">
+    						$6
+    					</div>
+    				</div>
+    				<div class="menu-items" data-aos="fade-up-left">
+    					<div class="menu-item-title">
+    						<img src="image/coffee2.jpg">
+    						<h3>Espresso</h3>
+    					</div>
+    					<div class="menu-item-price">
+    						$4
+    					</div>
+    				</div>
+    				<div class="menu-items" data-aos="fade-up-right">
+    					<div class="menu-item-title">
+    						<img src="image/coffee3.jpg">
+    						<h3>Americano</h3>
+    					</div>
+    					<div class="menu-item-price">
+    						$7
+    					</div>
+    				</div>
+    				<div class="menu-items" data-aos="fade-up-left">
+    					<div class="menu-item-title">
+    						<img src="image/coffee4.jpg">
+    						<h3>Cafe latte</h3>
+    					</div>
+    					<div class="menu-item-price">
+    						$5
+    					</div>
+    				</div>
+    				<div class="menu-items" data-aos="fade-up-right">
+    					<div class="menu-item-title">
+    						<img src="image/coffee5.jpg">
+    						<h3>Macchito</h3>
+    					</div>
+    					<div class="menu-item-price">
+    						$8
+    					</div>
+    				</div>
+    				<div class="menu-items" data-aos="fade-up-left">
+    					<div class="menu-item-title">
+    						<img src="image/coffee1.jpg">
+    						<h3>Cappuccino</h3>
+    					</div>
+    					<div class="menu-item-price">
+    						$6
+    					</div>
+    				</div>
+    			</div>
+    			<div class="row menu-tab-content" id="hot-drinks">	
+    				<div class="menu-items" data-aos="fade-up-right">
+    					<div class="menu-item-title">
+    						<img src="image/coffee2.jpg">
+    						<h3>Espresso</h3>
+    					</div>
+    					<div class="menu-item-price">
+    						$4
+    					</div>
+    				</div>
+                    <div class="menu-items" data-aos="fade-up-left">
+                        <div class="menu-item-title">
+                            <img src="image/coffee4.jpg">
+                            <h3>Cafe latte</h3>
+                        </div>
+                        <div class="menu-item-price">
+                            $5
+                        </div>
+                    </div>
+                    <div class="menu-items" data-aos="fade-up-right">
+                        <div class="menu-item-title">
+                            <img src="image/coffee5.jpg">
+                            <h3>Macchito</h3>
+                        </div>
+                        <div class="menu-item-price">
+                            $8
+                        </div>
+                    </div>
+    				<div class="menu-items" data-aos="fade-up-left">
+    					<div class="menu-item-title">
+    						<img src="image/coffee3.jpg">
+    						<h3>Americano</h3>
+    					</div>
+    					<div class="menu-item-price">
+    						$7
+    					</div>
+    				</div>
+    			</div>
+    			<div class="row menu-tab-content" id="desserts">	
+    				<div class="menu-items"  data-aos="fade-up-right">
+    					<div class="menu-item-title">
+    						<img src="image/coffee1.jpg">
+    						<h3>Cappuccino</h3>
+    					</div>
+    					<div class="menu-item-price">
+    						$6
+    					</div>
+    				</div>
+    				<div class="menu-items"  data-aos="fade-up-left">
+    					<div class="menu-item-title">
+    						<img src="image/coffee2.jpg">
+    						<h3>Espresso</h3>
+    					</div>
+    					<div class="menu-item-price">
+    						$4
+    					</div>
+    				</div>
+    				<div class="menu-items" data-aos="fade-up-right">
+    					<div class="menu-item-title">
+    						<img src="image/coffee3.jpg">
+    						<h3>Americano</h3>
+    					</div>
+    					<div class="menu-item-price">
+    						$7
+    					</div>
+    				</div>
+    				<div class="menu-items"  data-aos="fade-up-left">
+    					<div class="menu-item-title">
+    						<img src="image/coffee4.jpg">
+    						<h3>Cafe latte</h3>
+    					</div>
+    					<div class="menu-item-price">
+    						$5
+    					</div>
+    				</div>
+    			</div>
+            </div>
+        </div>
+    	
+    </section>
+    <!--end of menu section-->
+
+
+    <!--start of review section-->
+    <section class="review" id="review">
+        <div class="reviews">
+           <div class="review-text" >
+                <p>Customers reviews</p>
+                <h1 data-aos="fade-up">Our Feedback </h1>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="testimonal" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                            <img src="image/review1.jpg">
+                            <div class="name">Charles Logis</div>
+                            <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star-half"></i>
+                        </div>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="testimonal" data-aos="flip-left"
+                         data-aos-easing="ease-out-cubic"
+                         data-aos-duration="2000">
+                            <img src="image/review4.jpg">
+                            <div class="name">Charles Logis</div>
+                            <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star-half"></i>
+                        </div>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="testimonal" data-aos="flip-left"
+                         data-aos-easing="ease-out-cubic"
+                         data-aos-duration="2000">
+                            <img src="image/review5.jpg">
+                            <div class="name">Charles Logis</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star-half"></i>
+                            </div>
+ 
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             
+         </div>
+
+          <div class="thank-text">
+            <h1>Thank you for ordering from us! </h1>
+        </div>
+        
+    </section>
+    <!--end of review section-->
+
+    <!--start of footer section-->
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+           <div class="row">
+               <div class="footer-item">
+                   <h3>Our location</h3>
+                   <p>No A Cafe lone street, Bright <br>Muan - 000</p>
+               </div>
+               <div class="footer-item">
+                   <h3>Opening hours</h3>
+                   <p>Monday to Friday <br> 8:00 AM - 9:00 PM</p>
+               </div>
+               <div class="footer-item">
+                   <h3>Contact us</h3>
+                   <p>01-234-567</p>
+                   <p>info@cafe.com</p>
+                   <div class="social-links">
+                       <a href="#"><i class="fab fa-youtube"></i></a>
+                       <a href="#"><i class="fab fa-twitter"></i></a>
+                       <a href="#"><i class="fab fa-instagram"></i></a>
+                       <a href="#"><i class="fab fa-facebook"></i></a></a>
+                   </div>
+               </div>
+           </div>
+           <div class="row">
+               <div class="copyright">
+                  &copy; 2021 - Designed by Amyy Stephanie
+               </div>
+           </div>
+        </div>
+    </footer>
+
+
+
+
+    <!--end of footer section-->
+
+
+
+
+
+    <script src="js/aos.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
