@@ -481,14 +481,14 @@ section.review{
 	display: inline-flex;
 	height: 40px;
 	width: 40px;
-	color: #fff;
+	color: var(--main-color);
 	font-size: 22px;
 	align-items: center;
 	justify-content: center;
 	transition: color 0.3s ease;
 }
 .footer-item .social-links a:hover{
-	color: var(--main-color);
+	color: #fff;
 }
 .footer .copyright{
 	margin: 40px 0 0;
