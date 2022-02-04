@@ -40,3 +40,17 @@ window.onscroll = () =>{
 }
 
 
+/*-------------menu pop up------
+
+const home_btn = document.querySelector('.home-btn');
+const picContainer = document.querySelector('.pics-container');
+
+const close = document.querySelector('.close');
+
+home_btn.addEventListener('click',()=>{
+   picContainer.classList.add('show'); 
+});
+
+close.addEventListener('click',()=>{
+   picContainer.classList.remove('show'); 
+});*/

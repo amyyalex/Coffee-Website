@@ -153,14 +153,14 @@ body {
 .home-btn:hover {
 	background: var(--primary-color);
 	color: #fff;
-	border: 2px solid #A56329;
-
+	border: 2px solid #A56329; 
 }
+
 
 
 /*about styling**/
 section.about{
-	background: url(image/about9.jpg);
+	background: url(image/about11.jpg);
 	background-position: center;
 	background-size: cover;
 }
@@ -235,7 +235,7 @@ section.about{
 
 /*menu styling**/
 section.menu-section{
-	background: url(image/about10.jpg);
+	background: url(image/about12.jpg);
 	background-position: center;
 	background-size: cover;
 }
@@ -354,7 +354,7 @@ section.menu-section{
 
 /*Review styling**/
 section.review{
-	background: url(image/about9.jpg);
+	background: url(image/about11.jpg);
 	background-position: center;
 	background-size: cover;
 }
